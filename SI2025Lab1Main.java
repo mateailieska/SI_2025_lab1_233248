@@ -81,10 +81,15 @@ public List<Task> getCompletedTasks() {
 }
 
 
-    // 3. List tasks sorted by name
-    public void sortTasksByName() {
-        // TODO: Implement sorting logic
-    }
+   // 3. List tasks sorted by name
+public void sortTasksByName() {
+        Collections.sort(tasks, new Comparator<Task>() {
+        @Override
+        public int compare(Task task1, Task task2) {
+                    return task1.getName().compareTo(task2.getName());
+        }
+    });
+}
 
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
