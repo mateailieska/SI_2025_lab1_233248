@@ -69,15 +69,14 @@ class TaskManager {
 
  
    // 2. Find all completed tasks
-    public List<Task> getCompletedTasks() {
-    // TODO: Implement logic to return completed tasks
+public List<Task> getCompletedTasks() {
     List<Task> completedTasks = new ArrayList<>();
-       for (Task task : tasks) {
+    for (Task task : tasks) {
         if (task.isCompleted()) {
-            completedTasks.add(task);         }
+            completedTasks.add(task);
+        }
     }
-    
-    return completedTasks; 
+    return completedTasks;
 }
 
 
