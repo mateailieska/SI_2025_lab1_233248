@@ -1,0 +1,49 @@
+Креирање директориум и иницијализација на Git
+mkdir SI_2025_lab1_233248
+cd SI_2025_lab1_233248
+git init
+
+Поврзување со GitHub репозиториум
+git remote add origin https://github.com/mateailieska/SI_2025_lab1_233248.git
+
+Креирање на README.md
+echo "Matea Ilieska 233248" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+
+Креирање на Java фајл
+nano SI2025Lab1Main.java
+
+Откако ќе се внесе кодот:
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+git push origin master
+
+
+Branches
+git fetch origin
+
+git checkout 1-remove-a-task-by-name
+git add SI2025Lab1Main.java
+git commit -m "Implement removeTask method"
+git push origin 1-remove-a-task-by-name
+
+
+
+git checkout 2-find-all-completed-tasks
+git add SI2025Lab1Main.java
+git commit -m "Implement getCompletedTasks method"
+git push origin 2-find-all-completed-tasks
+
+
+git checkout 3-list-tasks-sorted-by-name
+git add SI2025Lab1Main.java
+git commit -m "Implement sorting tasks by name"
+git push origin 3-list-tasks-sorted-by-name
+
+
+Спојување на гранката со master и синхронизирање со оддалечениот репозиториум
+git checkout master
+git merge 2-find-all-completed-tasks
+git push origin master

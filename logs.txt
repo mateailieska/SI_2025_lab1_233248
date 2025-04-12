@@ -1,0 +1,24 @@
+*   1ea31c0 Merge pull request #13 from mateailieska/3-list-tasks-sorted-by-name
+|\  
+| * 1b33218 Implement sorting tasks by name
+* |   fd954ea Merge pull request #12 from mateailieska/2-find-all-completed-tasks
+|\ \  
+| * | 4f58045 Implement getCompletedTasks method
+| |/  
+* |   d085c63 Merge pull request #11 from mateailieska/2-find-all-completed-tasks
+|\ \  
+| * | 3a30609 Implement getCompletedTasks method
+| * | cbb96a9 Implement getCompletedTasks method
+| |/  
+* |   4e366a4 Merge pull request #10 from mateailieska/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * b7b6d90 Implement removeTask method
+|/  
+| * 1a1c1b8 WIP on 2-find-all-completed-tasks: 21a9ffc Add starter code
+|/| 
+| * e982373 index on 2-find-all-completed-tasks: 21a9ffc Add starter code
+|/  
+* 21a9ffc Add starter code
+* a26119e Initial commit
